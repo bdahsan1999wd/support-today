@@ -171,3 +171,122 @@ body {
   align-items: center;
   margin-top: 30px;
 }
+
+/* ----------Our Supporting Plan Section Styles---------- */
+
+.supporting-plan {
+  border: 10px solid blue;
+  max-width: 1140px;
+  height: 540px;
+  margin: 0 auto;
+  margin-bottom: 130px;
+}
+.supporting-plan p {
+  margin-bottom: 50px;
+}
+
+/* ----- ----- */
+
+.donation-plan {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* -----Box-1----- */
+.plan-box-1 {
+  border: 5px solid orangered;
+  width: 360px;
+  height: 352px;
+  border-radius: 5px;
+  background: rgba(79, 157, 166, 0.1);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0px 22px 0px 23px;
+  margin-right: 24px;
+}
+.plan-box-1 img {
+  width: 58.13px;
+  height: 49.77px;
+  margin-top: 63.5px;
+}
+.plan-box-1 h4 {
+  font-size: 24px;
+  font-weight: 600;
+  color: rgb(18, 18, 18);
+  margin-top: 32px;
+  margin-bottom: 16px;
+}
+.plan-box-1 p {
+  font-size: 16px;
+  font-weight: 400;
+  color: rgb(112, 112, 112);
+  margin-bottom: 54px;
+}
+
+/* -----Box-2----- */
+.plan-box-2 {
+  border: 5px solid orangered;
+  width: 360px;
+  height: 352px;
+  border-radius: 5px;
+  background: rgba(255, 89, 89, 0.1);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0px 22px 0px 23px;
+}
+.plan-box-2 img {
+  width: 58.13px;
+  height: 49.77px;
+  margin-top: 63.5px;
+}
+.plan-box-2 h4 {
+  font-size: 24px;
+  font-weight: 600;
+  color: rgb(18, 18, 18);
+  margin-top: 32px;
+  margin-bottom: 16px;
+}
+.plan-box-2 p {
+  font-size: 16px;
+  font-weight: 400;
+  color: rgb(112, 112, 112);
+  margin-bottom: 54px;
+}
+
+/* -----Box-3----- */
+.plan-box-3 {
+  border: 5px solid orangered;
+  width: 360px;
+  height: 352px;
+  border-radius: 5px;
+  background: rgb(255, 244, 214);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0px 22px 0px 23px;
+  margin-left: 24px;
+}
+.plan-box-3 img {
+  width: 58.13px;
+  height: 49.77px;
+  margin-top: 63.5px;
+}
+.plan-box-3 h4 {
+  font-size: 24px;
+  font-weight: 600;
+  color: rgb(18, 18, 18);
+  margin-top: 32px;
+  margin-bottom: 16px;
+}
+.plan-box-3 p {
+  font-size: 16px;
+  font-weight: 400;
+  color: rgb(112, 112, 112);
+  margin-bottom: 54px;
+}
+
+/* ----------Contribute Section Styles---------- */
+/* max-width: 1040px; */
+/* height: 480px; */
