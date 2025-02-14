@@ -287,7 +287,7 @@ body {
   margin-bottom: 54px;
 }
 
-/* ----------1st Contribute Section Styles---------- */
+/* ----------1st and 2nd Contribute Section Styles---------- */
 
 .contribute-section {
   border: 10px solid saddlebrown;
@@ -299,7 +299,7 @@ body {
   margin-bottom: 110px;
 }
 
-/* ----- ----- */
+/* ----- contribute text styles ----- */
 .contribute-text {
   border: 2px solid rebeccapurple;
   width: 493px;
@@ -313,12 +313,12 @@ body {
   margin-bottom: 20px;
 }
 
-/* ----- ----- */
+/* ----- button styles ----- */
 .contribute-text button {
   margin-top: 10px;
 }
 
-/* ----- ----- */
+/* ----- contribute image styles ----- */
 .contribute-image {
   border: 2px solid salmon;
   width: 456px;
