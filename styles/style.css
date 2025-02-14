@@ -330,3 +330,63 @@ body {
   border-radius: 5px;
   object-fit: cover;
 }
+
+/* ----------My Updates section styles---------- */
+.my-updates-section {
+  border: 10px solid red;
+  width: 809px;
+  height: 380px;
+  margin: 0 auto;
+  margin-bottom: 130px;
+}
+
+/* -----input field section styles----- */
+.input-field-section {
+  border: 2px solid blue;
+  width: 809px;
+  height: 200px;
+  margin-top: 50px;
+  background-color: rgb(255, 244, 214);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* -----input form styles----- */
+.subscribe-form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* -----Apply box-sizing to both input and button----- */
+input[type="text"],
+button[type="submit"] {
+  height: 48px;
+  box-sizing: border-box;
+  border: none;
+}
+
+/* Input field styles */
+input[type="text"] {
+  width: 275px;
+  border-radius: 5px 0px 0px 5px;
+  background: rgb(217, 217, 217);
+  color: rgb(170, 159, 159);
+  padding: 10px 15px;
+  font-size: 16px;
+  font-weight: 500;
+  font-family: "Inter", serif;
+}
+
+/* Button styles */
+button[type="submit"] {
+  width: 157px;
+  border-radius: 0px 5px 5px 0px;
+  background: rgb(255, 89, 89);
+  color: rgb(255, 255, 255);
+  font-size: 16px;
+  font-weight: 500;
+  font-family: "Inter", serif;
+  cursor: pointer;
+}
