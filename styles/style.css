@@ -287,6 +287,46 @@ body {
   margin-bottom: 54px;
 }
 
-/* ----------Contribute Section Styles---------- */
-/* max-width: 1040px; */
-/* height: 480px; */
+/* ----------1st Contribute Section Styles---------- */
+
+.contribute-section {
+  border: 10px solid saddlebrown;
+  max-width: 1040px;
+  height: 480px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 110px;
+}
+
+/* ----- ----- */
+.contribute-text {
+  border: 2px solid rebeccapurple;
+  width: 493px;
+  height: 374px;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  margin-top: 72px;
+}
+.contribute-text p {
+  margin-bottom: 20px;
+}
+
+/* ----- ----- */
+.contribute-text button {
+  margin-top: 10px;
+}
+
+/* ----- ----- */
+.contribute-image {
+  border: 2px solid salmon;
+  width: 456px;
+  height: 477px;
+}
+.contribute-image img {
+  width: 100%;
+  height: 100%;
+  border-radius: 5px;
+  object-fit: cover;
+}
