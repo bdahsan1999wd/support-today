@@ -11,7 +11,6 @@
 }
 
 body {
-  border: 10px solid rgb(18, 163, 5);
   font-family: "Poppins", serif;
 }
 
@@ -56,7 +55,6 @@ body {
 
 /* ----------Banner Section Container Styles----------*/
 .banner-section-container {
-  border: 10px solid red;
   max-width: 1440px;
   height: 669px;
   margin: 0 auto;
@@ -94,7 +92,6 @@ body {
 
 /* ----------Support Today Section Styles---------- */
 .support-today-section {
-  border: 10px solid red;
   max-width: 765px;
   margin: 0 auto;
   margin-bottom: 130px;
@@ -109,7 +106,6 @@ body {
 }
 
 .donate-amount {
-  border: 2px solid red;
   width: 135px;
   height: 123px;
   display: flex;
@@ -145,7 +141,6 @@ body {
 
 /* -----h6 text styles----- */
 .support-today-section h6 {
-  border: 2px solid rgb(4, 0, 255);
   font-size: 18px;
   font-weight: 400;
   color: rgb(179, 179, 179);
@@ -165,7 +160,6 @@ body {
 
 /* -----support button styles----- */
 .support-button {
-  border: 2px solid blueviolet;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -175,7 +169,6 @@ body {
 /* ----------Our Supporting Plan Section Styles---------- */
 
 .supporting-plan {
-  border: 10px solid blue;
   max-width: 1140px;
   height: 540px;
   margin: 0 auto;
@@ -194,7 +187,6 @@ body {
 
 /* -----Box-1----- */
 .plan-box-1 {
-  border: 5px solid orangered;
   width: 360px;
   height: 352px;
   border-radius: 5px;
@@ -226,7 +218,6 @@ body {
 
 /* -----Box-2----- */
 .plan-box-2 {
-  border: 5px solid orangered;
   width: 360px;
   height: 352px;
   border-radius: 5px;
@@ -257,7 +248,6 @@ body {
 
 /* -----Box-3----- */
 .plan-box-3 {
-  border: 5px solid orangered;
   width: 360px;
   height: 352px;
   border-radius: 5px;
@@ -290,7 +280,6 @@ body {
 /* ----------1st and 2nd Contribute Section Styles---------- */
 
 .contribute-section {
-  border: 10px solid saddlebrown;
   max-width: 1040px;
   height: 480px;
   margin: 0 auto;
@@ -301,7 +290,6 @@ body {
 
 /* ----- contribute text styles ----- */
 .contribute-text {
-  border: 2px solid rebeccapurple;
   width: 493px;
   height: 374px;
   display: flex;
@@ -320,7 +308,6 @@ body {
 
 /* ----- contribute image styles ----- */
 .contribute-image {
-  border: 2px solid salmon;
   width: 456px;
   height: 477px;
 }
@@ -333,7 +320,6 @@ body {
 
 /* ----------My Updates section styles---------- */
 .my-updates-section {
-  border: 10px solid red;
   max-width: 809px;
   height: 380px;
   margin: 0 auto;
@@ -342,7 +328,6 @@ body {
 
 /* -----input field section styles----- */
 .input-field-section {
-  border: 2px solid blue;
   width: 809px;
   height: 200px;
   margin-top: 50px;
@@ -393,11 +378,12 @@ button[type="submit"] {
 
 /* ----------Footer Section Styles---------- */
 footer {
-  border: 10px solid orange;
   max-width: 1440px;
   height: 177px;
   margin: 0 auto;
   background-color: rgb(11, 13, 23);
+  display: flex;
+  flex-direction: column;
 }
 
 footer h3 {
